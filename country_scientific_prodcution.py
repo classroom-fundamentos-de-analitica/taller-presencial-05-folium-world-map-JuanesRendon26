@@ -5,6 +5,7 @@ import pandas as pd
 import folium
 
 
+
 def load_affiliations():
     """Carga el archivo scopus-papers.csv y retorna un dataframe con la columna 'Affiliations'"""
     dataframe = pd.read_csv(
